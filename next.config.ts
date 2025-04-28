@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
   assetPrefix: process.env.NODE_ENV === 'production' ? '/pdf-viewer-1/' : '',
   images: {
     unoptimized: true
-  }
+  },
+  trailingSlash: true
 };
 
 export default nextConfig;
